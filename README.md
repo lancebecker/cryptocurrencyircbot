@@ -1,7 +1,12 @@
-# cryptocurrencyircbot
-Cryptocurrency IRC bot, it gets the data from coinmarketcap.com
+# Cryptobot
 
-1. Install nodejs
-2. npm install irc
-3. run 'node bot.js' 
-4. commands: !$crypto (for istance !siacoin), !vol (displays the top 10 cryptocurrencies by volume)
+Adapted and extended from:
+<https://github.com/gderaco/cryptocurrencyircbot>
+
+# Installation
+`git clone https://github.com/lancebecker/cryptobot.git`
+`yarn`
+`node index.js` or `node start`
+
+## For privately overridding the IRC channel and botname
+`cp secrets.template.js secrets.js`

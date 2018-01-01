@@ -1,0 +1,13 @@
+{
+  "name": "cryptocurrencyircbot",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/lancebecker/cryptocurrencyircbot.git",
+  "author": "Lance Becker <lance@superhighway.io>",
+  "license": "Unlicense",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "irc": "^0.5.2",
+    "request": "^2.83.0"
+  }
+}
