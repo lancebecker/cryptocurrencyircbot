@@ -21,7 +21,7 @@ const TRIGGER_MVP     = '!mvp';
 const TRIGGER_OPTIONS = '!options';
 
 const MARKET_VOLUME_FULL_DAY = "24h_volume_usd";
-const MVP_CURRENCIES = ['BTC', 'BCH', 'ETH', 'LTC'];
+const MVP_CURRENCIES = options.mvps || ['BTC', 'BCH', 'ETH', 'LTC'];
 
 // Setup Client + Listeners
 // ---------------------------------------------------------------------
